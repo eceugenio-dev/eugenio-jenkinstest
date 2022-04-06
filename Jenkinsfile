@@ -22,5 +22,12 @@ pipeline {
                 echo 'Trying another another ANOTHER test...'
             }
         }
+        
+       stage('Jenkins Goodbye Again') {
+            steps {
+                echo 'Hello Again'
+                echo 'Trying another another ANOTHER test...'
+            }
+        }
     }
 }
