@@ -15,5 +15,12 @@ pipeline {
                 echo 'Trying another another test...'
             }
         }
+       
+       stage('Jenkins Hello Again') {
+            steps {
+                echo 'Hello Again'
+                echo 'Trying another another ANOTHER test...'
+            }
+        }
     }
 }
